@@ -6,14 +6,73 @@
 
 /* Global Styles */
 
+@font-face {
+    font-family: Aldrich;
+    src: url(../fonts/Aldrich/Aldrich-Regular.ttf);
+}
+@font-face {
+    font-family: Orbitron;
+    src: url(../fonts/Orbitron/orbitron-medium.otf);
+	font-weight: medium;
+}
+@font-face {
+    font-family: Armata;
+    src: url(../fonts/armata/Armata-Regular.otf);
+}
+
+nav.navbar {
+	margin:0;
+}
+
+.navbar-brand{
+	height: auto;
+	padding: 0;
+}
+
+.navbar-header .navbar-brand img {
+	max-width: 300px;
+}
+nav.navbar-inverse {
+	background-color: #EEE;
+	border-color: transparent;
+}
+
+/* This is the nav menu text */
+.nav.navbar-nav.navbar-right li a {
+	font-family: Aldrich;
+	font-size: 1.2em;
+	color: black;
+}
+.navbar-inverse .navbar-nav > li > a:focus, 
+.navbar-inverse .navbar-nav > li > a:hover
+{
+	color: #23b2c6;
+}
+.nav.navbar-nav.navbar-right .dropdown .dropdown-menu li a:hover {
+	color: #23b2c6;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #23b2c6;
+}
+
+/* color change for active page */
+.nav.navbar-nav.navbar-right li .btn-active {
+	color: #23b2c6;
+}
+
+/* Nav style ends here */
+
 html,
 body {
     height: 100%;
 }
 
-body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
 
 .img-portfolio {
     margin-bottom: 30px;
