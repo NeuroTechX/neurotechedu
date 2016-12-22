@@ -20,6 +20,37 @@
     src: url(../fonts/armata/Armata-Regular.otf);
 }
 
+
+#overview {
+  position: relative;
+  margin: auto;
+  margin-bottom: 15px;
+  background: #23b2c6;
+  overflow: hidden;
+  padding: 0.5em;
+  color: white;
+  border-radius: 5px;
+}
+
+
+#overview h4 {
+	font-family: Aldrich;
+}
+#overview p {
+	font-family: Armata;
+}
+
+code {
+  display: block;
+  padding: 5px 10px;
+  font-size: 1em;
+  color: black;
+  background-color: transparent;
+  border: 1px solid LightGray;
+  border-left: 4px solid #23b2c6;
+  border-radius: 0;
+}
+
 nav.navbar {
 	margin:0;
 }
@@ -40,7 +71,7 @@ nav.navbar-inverse {
 /* This is the nav menu text */
 .nav.navbar-nav.navbar-right li a {
 	font-family: Aldrich;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color: black;
 }
 .navbar-inverse .navbar-nav > li > a:focus, 
@@ -129,7 +160,20 @@ header.carousel .fill {
 /* Footer Styles */
 
 footer {
-    margin: 50px 0;
+    margin: 30px 0;
+	background: black;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-family: Armata;
+	font-size: 90%;
+
+}
+
+footer .btn {
+	background: none;
+	border: 1px solid white;
+	color: white;
 }
 
 /* Responsive Styles */
@@ -149,4 +193,43 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+}
+
+@media (min-width: 700px) {
+
+.container {
+	max-width:90%;
+}
+.nav.navbar-nav.navbar-right li a {
+	font-size: 1.2em;
+}
+
+#overview {
+  padding: 1.5em;
+  color: white;
+  margin-bottom: 30px;
+}
+
+}
+
+@media (min-width: 1000px) {
+
+.container {
+	max-width: 1000px;
+}
+
+.nav.navbar-nav.navbar-right li a {
+	font-size: 1.5em;
+}
+
+#overview {
+  padding: 2em;
+  color: white;
+}
+
+div.line-divide {
+	border-left: 1px solid white;
+}
+
+
 }
