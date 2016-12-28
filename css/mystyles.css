@@ -51,6 +51,8 @@ code {
   border-radius: 0;
 }
 
+
+/* Navbar styles */
 nav.navbar {
 	margin:0;
 }
@@ -68,7 +70,7 @@ nav.navbar-inverse {
 	border-color: transparent;
 }
 
-/* This is the nav menu text */
+/* ---Nav menu styles--- */
 .nav.navbar-nav.navbar-right li a {
 	font-family: Aldrich;
 	font-size: 1.1em;
@@ -96,12 +98,72 @@ nav.navbar-inverse {
 .nav.navbar-nav.navbar-right li .btn-active {
 	color: #23b2c6;
 }
+/* ---Nav style ends here--- */
 
-/* Nav style ends here */
+
+/* ---Sidebar style starts here--- */
+.affix {
+  top: 20px;
+  width: 213px;
+}
+
+@media (min-width: 1200px) {
+  .affix {
+    width: 235px;
+  }         
+}
+
+.affix-bottom {
+  position: absolute;
+  width: 213px;
+}
+
+@media (min-width: 1200px) {
+  .affix-bottom {
+    width: 235px;
+  }
+}
+.nav .active {
+  font-weight: bold;
+  background-color: #23b2c6;
+}
+
+.nav .nav {
+  display: none;
+}
+
+.nav .active .nav {
+  display: block;
+}
+
+.nav .nav a {
+  font-weight: normal;
+  font-size: .85em;
+  color: white;
+}
+
+.nav .nav span {
+  margin: 0 5px 0 2px;
+}
+
+.nav .nav .active a,
+.nav .nav .active:hover a,
+.nav .nav .active:focus a {
+  font-weight: bold;
+  padding-left: 30px;
+  border-left: 5px solid #EEE;
+}
+
+.nav .nav .active span,
+.nav .nav .active:hover span,
+.nav .nav .active:focus span {
+  display: none;
+}
+/* ---Sidebar style ends here--- */
 
 html,
 body {
-    height: 100%;
+	position: relative; /* necessary for sidebar */
 }
 
 
