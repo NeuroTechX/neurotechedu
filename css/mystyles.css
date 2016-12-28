@@ -125,7 +125,6 @@ nav.navbar-inverse {
 }
 .nav .active {
   font-weight: bold;
-  background-color: #23b2c6;
 }
 
 .nav .nav {
@@ -138,8 +137,7 @@ nav.navbar-inverse {
 
 .nav .nav a {
   font-weight: normal;
-  font-size: .85em;
-  color: white;
+  font-size: .85em;;
 }
 
 .nav .nav span {
@@ -151,7 +149,7 @@ nav.navbar-inverse {
 .nav .nav .active:focus a {
   font-weight: bold;
   padding-left: 30px;
-  border-left: 5px solid #EEE;
+  border-left: 5px solid black;
 }
 
 .nav .nav .active span,
