@@ -5,6 +5,7 @@
  */
 
 /* Global Styles */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 @font-face {
     font-family: Aldrich;
@@ -20,6 +21,10 @@
     src: url(../fonts/armata/Armata-Regular.otf);
 }
 
+section h2, section h4 {
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
 
 #overview {
   position: relative;
@@ -37,7 +42,7 @@
 	font-family: Aldrich;
 }
 #overview p {
-	font-family: Armata;
+	font-family: 'Open Sans', sans-serif;
 }
 
 code {
@@ -225,7 +230,7 @@ footer {
 	color: white;
 	padding: 10px 20px;
 	border-radius: 5px;
-	font-family: Armata;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 90%;
 
 }
@@ -269,6 +274,10 @@ footer .btn {
   color: white;
   margin-bottom: 30px;
 }
+section h2, section h4 {
+	margin-top: 30px;
+}
+
 
 }
 
@@ -289,6 +298,10 @@ footer .btn {
 
 div.line-divide {
 	border-left: 1px solid white;
+}
+
+section h2, section h4 {
+	margin-top: 40px;
 }
 
 
