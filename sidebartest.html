@@ -206,6 +206,7 @@
           </ul><!-- end of main navigation -->
         </div>
         <div class="col-md-9">
+          <article>
           <section id="VirtualReality">
           <h2>Virtual Reality</h2>
           <p>Once the stuff of science fiction, virtual reality is on the cusp of becoming part of our day-to-day lives thanks to mounting technological advances. Many popular VR headsets are ushering in exciting new ways to play and interact with the world. As these devices continue to evolve, we believe that EEG algorithms can add the extra layer of immersion needed to truly complete the virtual reality experience.</p>
@@ -384,7 +385,7 @@ and serve as a powerful tool for cognitive enhancement.</p>
               <p>Tasks that tax working memory recruit areas in frontal and parietal cortex, overlapping with networks associated with attentional control (for review, see Duncan, 2010). A popular account linking frontoparietal activity to working memory performance is that activity in these domain-general networks codes information about fluctuating task goals. During control-demanding tasks, long-range functional connections between frontoparietal networks and other cortical areas integrate this higher-order information with ongoing processing in lower-level domain-specific systems (Stokes, 2011). The dynamic regulation of this functional connectivity provides a basis for integrating and optimizing lower-level sensory processes necessary in attention-demanding situations or when attempting to maintain multiple items in working memory (Gazzaley and Nobre, 2012). Similar functional interactions have been implicated in working memory performance during childhood (Astle et al., 2014; Barnes et al., 2015). However, the extent to which the neurophysiological mechanisms underlying efficient working memory performance can be modified by training is unknown.</p>
               </section>
           </section>
-          
+        </article>  
         </div>
         </div>        
         <!-- /.row -->
@@ -417,19 +418,12 @@ and help shape the future of neurotechnology!</p>
 
     <!-- Script to Activate the Carousel -->
     <script>
-    $('#nav').affix({
-    offset: {
-        top: $('#nav').offset().top
-    }
-});
-	
-	$('#nav').affix({
-  	offset: {
-    bottom: ($('footer').outerHeight(true) + 
-            $('.application').outerHeight(true)) + 
-            40
-  }
-});
+		$('#nav').affix({
+			offset: {     
+			  top: $('#nav').offset().top,
+			  bottom: ($('footer').outerHeight(true) + $('.application').outerHeight(true)) + 40
+			}
+		});
     </script>
 
 </body>
