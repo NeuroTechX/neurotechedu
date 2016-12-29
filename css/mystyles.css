@@ -14,7 +14,6 @@
 @font-face {
     font-family: Orbitron;
     src: url(../fonts/Orbitron/orbitron-medium.otf);
-	font-weight: medium;
 }
 @font-face {
     font-family: Armata;
@@ -255,6 +254,14 @@ footer .btn {
 	border: 1px solid white;
 	color: white;
 }
+
+.btn-primary {
+  color: #fff;
+  background-color: #23b2c6;
+  border-color: transparent;
+  margin-bottom: 20px;
+}
+
 
 /* Responsive Styles */
 
