@@ -63,6 +63,9 @@ code {
   border-radius: 0;
 }
 
+figure {
+	margin-bottom: 15px;
+}
 
 /* Navbar styles */
 nav.navbar {
