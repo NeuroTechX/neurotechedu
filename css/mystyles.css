@@ -64,8 +64,38 @@ code {
 }
 
 figure {
-	margin-bottom: 15px;
+margin-bottom: 15px;
 }
+
+/* content cards for index page */
+.row.content-card{
+	border-radius: 4px;
+	padding: 10px;
+	margin: 3px;
+}
+.row.content-card:hover {
+	transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+	background:rgba(0,0,0,0.1);
+}
+.row.content-card p {
+	display: none; /* hide the descriptions to save space on phone size screen */
+	margin: 0;
+}
+.row.content-card a {
+	color: black;
+}
+.row.content-card figure {
+	font-size: 9em;
+	color: #2c2c2c;
+	margin: 0;
+	text-align: center;
+}
+/* .row.content-card figure span {
+  vertical-align: middle;
+} */
+/* -------- */
+
 
 /* Navbar styles */
 nav.navbar {
@@ -78,7 +108,7 @@ nav.navbar {
 }
 
 .navbar-header .navbar-brand img {
-	max-width: 300px;
+	max-width: 200px;
 }
 nav.navbar-inverse {
 	background-color: #EEE;
@@ -285,7 +315,16 @@ footer .btn {
     }
 }
 
+@media (min-width: 500px) {
+
+.row.content-card p {
+	display: inline-block;  /*display thumbnail descriptions */
+}
+}
+
+
 @media (min-width: 700px) {
+
 
 .container {
 	max-width:90%;
@@ -299,14 +338,23 @@ footer .btn {
   color: white;
   margin-bottom: 30px;
 }
+
+
+
 section {
 	margin-bottom: 20px;
 }
 
 
+
 }
 
 @media (min-width: 1000px) {
+
+.navbar-header .navbar-brand img {
+	max-width: 250px;
+}
+
 
 .container {
 	max-width: 1000px;
@@ -327,6 +375,10 @@ div.line-divide {
 
 section {
 	margin-bottom: 40px;
+}
+
+figure {
+	margin-bottom: 0px; /* remove margin to reduce white space on large screen sizes */
 }
 
 

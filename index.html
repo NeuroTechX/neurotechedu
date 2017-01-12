@@ -9,7 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Get Started | Neurotech EDU</title>
+    <title>Content Page | Neurotech EDU</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +30,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".scrollspy">
+<body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -48,41 +49,21 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="btn-active" href="index.html">Get Started</a>
+                        <a class="btn-active" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="getstarted.html">Get Started</a>
                     </li>
                     <li>
                         <a href="headsets.html">Headsets</a>
-                    </li>
+                    </li>                                        
                     <li>
                         <a href="applications.html">Applications</a>
                     </li>
                     <li>
                         <a href="contributors.html">Contributors</a>
-                    </li>
-<!--     Below is an example of a dropdown button. Use the class "btn-active" to highlight the button of the current page.
-
-					<li class="dropdown">
-                        <a href="#" class="dropdown-toggle btn-active" data-toggle="dropdown">Lessons <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="btn-active" href="sidebartest.html">Sidebar Test</a>
-                            </li>
-                            <li>
-                                <a href="#">Lesson 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Lesson 3</a>
-                            </li>
-                            <li>
-                                <a href="#">Lesson 4</a>
-                            </li>
-                            <li>
-                                <a href="#">Lesson 5</a>
-                            </li>
-                        </ul>
-                    </li>
--->
-
+                    </li>                    
+                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -90,6 +71,8 @@
         <!-- /.container -->
     </nav>
 
+    
+    </header>
 
     <!-- Page Content -->
     <div class="container">
@@ -98,156 +81,54 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Getting Started</h1>
-
-            <div id="overview">
-            <div class="col-lg-12">
-                            <h4>How can I get started?</h4>
-                            <p>An easy project for one person might be difficult for someone else. Therefore we have broken down the projects as to either requiring no programming experience (plug and play) or requiring some experience. You will notice that with certain EEG headsets that there is more tutorials than others. This is likely due to the ease of development when using that device.</p>
-                            <p>The best way to get started will also depend on the headset that you have available.</p>
+                    Home</h1>
             </div>
-			</div>
+            
         </div>
+        <!-- /.row -->
 
-        </div>
-
-<!--
-
-		Sidebar HTML starts here. You will notice each link is an <a> tag which points to a specific ID. These IDs must be the same ones used for the <section> tags further below. This will ensure that each link scrolls the page to the correction section of the page. If you want to change any of these IDs, make sure to change them both in the sidebar and in the article text further down.
-
--->
-      <div class="row">
-        <div class="col-md-3 scrollspy">
-          <ul id="nav" class="nav hidden-xs hidden-sm" data-spy="affix">
-            <li>
-              <a href="#Muse">Muse</a>
-            </li>
-
-            <li>
-              <a href="#OpenBCI">OpenBCI</a>
-            </li>
-
-			<li>
-              <a href="#Emotiv">Emotiv</a>
-            </li>
-
-			<li>
-              <a href="#NeuroSky">NeuroSky</a>
-            </li>
-
-			<li>
-              <a href="#NoHeadSet">No HeadSet</a>
-            </li>
-
-
-            </li>
-          </ul><!-- end of main navigation -->
-        </div>
-        <div class="col-md-9">
-
-<!--
-
-		Article HTML starts here. The <section> tags are what the page will scroll to when the sidebar links are clicked. IDs must be identical to the IDs inside the sidebar links above. To add more text, simply copy the format you see here. Make sure to close <section> tags.
-
--->
-          <article>
-
-          <section id="Muse">
-          <h2 class="page-header">Muse</h2>
-          	<div class="row">
-              <div class="col-sm-6">
-              <p>The Muse headband is a easy to use EEG device with electrodes placed on Af7 and Af8 location if you are following 10-20 International Standards.</p>
-              <p>It is one of the easier bands to get started with if you are interested in learning eeg as it requires no head prep. Here are some simple projects you can get started with.</p>
-              </div>
-              <figure class="col-sm-6"><img src="images/muse-white.png" class="img-responsive" alt="Muse"></figure>
-            </div> <!-- end of row -->
-              <p><span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"></span> No Programming Experience</p>
-              <p>These tools can be used to visualizae your brain data:</p>
-              <ul>
-                <li><a href="http://developer.choosemuse.com/research-tools/getting-started" target="_blank">View your brain activity by using Muses's Research Tools</a></li>
-                <li><a href="http://www.brainavatar.com/ebrainavatar-muse.html" target="_blank">View a live topographic map of your brain activity</a></li>
-                <li>If you have an Android device, you can take a look at this<a href="https://play.google.com/store/apps/details?id=com.eeg_project&hl=en" target="_blank"> EEG 101 Tutorial</a> which was made by some of the <a href="https://github.com/NeuroTechX/eeg-101" target="_blank">NeuroTechX community members</a></li>
-              </ul>
-
-              <p><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span> Some Programming Experience</p>
-              <p>These are open source projects which require some programming experience in order to implement them.</p>
-              <ul>
-              <li><a href="https://github.com/bcimontreal/bci_workshop" target="_blank">Introduction to Brain Computer Interfaces</a></li>
-              <li><a href="http://developer.choosemuse.com/unity/getting-started" target="_blank">Using the Muse with Unity</a></li>
-			  </ul>
-            </section>
-
-          <section id="OpenBCI">
-          <h2 class="page-header">OpenBCI</h2>
-          <div class="row">
-            <div class="col-sm-6">
-              <p> The OpenBCI is an open source EEG that gives its user the opportunity to have maximum of 16 channels. Here are a variety of projects you can do.</p>
-            </div>
-            <figure class="col-sm-6"><img src="images/openBCI2.png" class="img-responsive" alt="openBCI"></figure>
-          </div> <!-- end of row -->
-
-              <p><span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"></span> No Programming Experience</p>
-            <ul>
-              <li><p> If you are not comfortable with EEGs or coding, we suggest taking a look at their Getting Started Guide. It includes a link to their  <a href="http://docs.openbci.com/Getting%20Started/01-GettingStarted" target="_blank"> Visualizer software</a></p></li>
-              <li><p> This guide uses OpenVibe which is a dataflow programming  system and is used for Brain Computer Interfaces. One of the NeuroTechX Community Members <a href="http://blog.jfrey.info/2015/02/04/openbci-p300-coadapt/" target="_blank"> built a P300 Speller using OpenBCI and OpenVibe</a></p></li>
-            </ul>
-              <p><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span> Some Programming Experience</p>
-              <ul>
-              	<li><a href="http://openbci.com/community/alphawave-openbci-based-demo/" target="_blank"> One of the OpenBCI Community members built an alphawave display</a></li>
-              </ul>
-          </section>
-
-          <section id="Emotiv">
-          <h2 class="page-header">Emotiv</h2>
-          <div class="row">
-            <div class="col-sm-6">
-              <p> The Emotiv Epoc is a 14 channel EEG which has a static form factor. This board is a good option for easy development and it only requires software experience. The major downside fo the Epoc is the cost and the fact that they charge you to get access to raw data.</p>
-            </div>
-              <figure class="col-sm-6"><img src="images/emotiv_epoc_600.png" class="img-responsive" alt="Emotiv Epoc"></figure>
-          </div> <!-- end of row -->
-          	  <p><span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"></span> No Programming Experience</p>
-              <ul>
-                  <li><a href="https://www.emotiv.com/product/3d-brain-visualizer/" target="_blank">Emotiv 3D Visualizer</a></li>
-                  <li><a href="https://www.emotiv.com/product-category/applications/" target="_blank">You can also look at their apps and see if there is one that interests you</a></li>
-              </ul>
-            <p><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span> Some Programming Experience</p>
-            <ul>
-              <li><p>Emotiv has included links to a variety of Example scrips that can be used with the Emotiv.<a href="https://github.com/Emotiv/community-sdk/tree/master/examples" target="_blank"> They can be found here</a></p></li>
-              <li><p>This is a more complicated project and requires some software and hardware experience...and a wheel chair.<a href="http://www.instructables.com/id/Brain-Controlled-Wheelchair/" target="_blank"> Check out this Emotiv controlled wheelchair</a></p></li>
-            </ul>
-          </section>
-
-          <section id="NeuroSky">
-          <h2 class="page-header">NeuroSky</h2>
-          <div class="row">
-            <div class="col-sm-6">
-              <p> The Neurosky is one of the original consumer EEGs on the market. It is a 1 channel  device and is only meant for simple use cases. Although some people have apparently built more complicated products with them.</p>
-            </div>
-              <figure class="col-sm-6"><img src="images/mindwave-headset-white2.jpg" class="img-responsive" alt="Mindwave headset"></figure>
-          </div> <!-- end of row -->
-              <p><span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"></span> No Programming Experience</p>
-              <ul>
-              <li><a href="http://developer.neurosky.com/docs/doku.php?id=mdt_quick_start_guide" target="_blank"> They have a quick start guide that you can use</a></li>
-              <li><a href="http://store.neurosky.com/products/brainwave-visualizer"> You can also get their visualizer for free</a></li>
-              </ul>
-              <p><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span> Some Programming Experience</p>
-              <ul>
-                <li>NeuroSky has put together their own list of projects you can do with their <a href="http://developer.neurosky.com/docs/doku.php?id=projects" target="_blank"> devices</a></li> 
-              </ul>
-          </section>
-
-          <section id="NoHeadSet">
-          <h2 class="page-header">No HeadSet</h2>
-              <p> If you don't have a headset available, there are still some stuff you could do with Brain data. Check out some of these links.
-              <ul>
-              <li>Want to contribute to open Neuroscience in a gamified way? Check out <a href="http://eyewire.org/explore" target="_blank"> Eyewire</a></li>
-              <li>You can also take a look at a buttload of MRI data using<a href="http://brainbox.pasteur.fr/" target="_blank"> Brainbox</a></li>
-              </ul>
-          </section>
-
-        </article>
-        </div>
-        </div>
+		<!-- thumbnails start here -->
+      <div class="row content-card">
+      <a href="getstarted.html">
+          <figure class="col-xs-4 col-sm-3">
+              <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span>
+          </figure>
+          <figcaption class="col-xs-8 col-sm-9">
+          <h4>Getting Started</h4>
+          <p>An easy project for one person might be difficult for someone else. Therefore we have broken down the projects as to either requiring no programming experience (plug and play) or requiring some experience. You will notice that with certain EEG headsets that there is more tutorials than others. This is likely due to the ease of development when using that device.</p>
+          </figcaption>
+      </a>
+      </div>
+        <!-- /.row -->
+        
+      <hr>
+      
+      <div class="row content-card">
+      <a href="headsets.html">
+          <figure class="col-xs-4 col-sm-3">
+              <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>
+          </figure>
+          <figcaption class="col-xs-8 col-sm-9">
+          <h4>Headsets</h4>
+          <p>Lorem ipsum dolor sit amet, apeirian liberavisse ius ad. Ea mei suscipit convenire tincidunt, est justo docendi hendrerit cu, noster nominati ei has. Pro ad ridens pertinax. Cum legere habemus noluisse ex, mutat modus veritus eum at. Euismod splendide ex quo. No detracto insolens his, ea mei brute velit.</p>
+          </figcaption>
+      </a>
+      </div>
+        <!-- /.row -->
+        
+      <hr>
+      
+      <div class="row content-card">
+      <a href="applications.html">
+          <figure class="col-xs-4 col-sm-3">
+              <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+          </figure>
+          <figcaption class="col-xs-8 col-sm-9">
+          <h4>Applications</h4>
+          <p>What is NeuroTechnology? Anything that records from or directly interfaces with the human brain. For the time being, we are excluding technologies that rely on downstream signals like EMG (muscles) and EKG (heartrate). What are the fields that are involved/interested in non-pharmaceutical Neurotech? Learn about them here.</p>
+          </figcaption>
+      </a>
+      </div>
         <!-- /.row -->
 
         <hr>
@@ -276,27 +157,12 @@ and help shape the future of neurotechnology!</p>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- This is script required for the sidebar to function -->
+    <!-- Script to Activate the Carousel -->
     <script>
-		$('#nav').affix({
-			offset: {
-			  top: $('#nav').offset().top,
-			  bottom: ($('footer').outerHeight(true) + $('.application').outerHeight(true)) + 40
-			}
-		});
-
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
     </script>
-    <script>
-  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  	ga('create', 'UA-65979944-6', 'auto');
-  	ga('send', 'pageview');
-
-   </script>
-
 
 </body>
 
