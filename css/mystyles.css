@@ -85,11 +85,21 @@ margin-bottom: 15px;
 .row.content-card a {
 	color: black;
 }
+.row.content-card figcaption {
+	font-family: Armata;
+}
+.row.content-card figcaption h4 {
+	font-family: Orbitron;
+	letter-spacing: 0.1em;
+}
 .row.content-card figure {
 	font-size: 9em;
 	color: #2c2c2c;
 	margin: 0;
 	text-align: center;
+}
+.row.content-card figure img {
+	border-radius: 5px;
 }
 /* .row.content-card figure span {
   vertical-align: middle;
@@ -105,10 +115,14 @@ nav.navbar {
 .navbar-brand{
 	height: auto;
 	padding: 0;
+	display:inline-block;
+    vertical-align:middle;
 }
 
 .navbar-header .navbar-brand img {
 	max-width: 200px;
+	margin-top: 15px;
+	margin-left: 15px;
 }
 nav.navbar-inverse {
 	background-color: #EEE;
@@ -329,9 +343,7 @@ footer .btn {
 .container {
 	max-width:90%;
 }
-.nav.navbar-nav.navbar-right li a {
-	font-size: 1.2em;
-}
+
 
 #overview {
   padding: 1.5em;
@@ -355,13 +367,11 @@ section {
 	max-width: 250px;
 }
 
-
+.nav.navbar-nav.navbar-right li a {
+	font-size: 1.2em;
+}
 .container {
 	max-width: 1000px;
-}
-
-.nav.navbar-nav.navbar-right li a {
-	font-size: 1.5em;
 }
 
 #overview {
