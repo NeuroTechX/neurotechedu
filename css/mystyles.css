@@ -25,7 +25,7 @@ h1 {
 }
 
 article {
-	margin-top: -40px; /* cancels out the top margin content so it's aligned with sidebar */
+	margin-top: -30px; /* cancels out the top margin content so it's aligned with sidebar */
 }
 section {
 	margin-bottom: 10px;
@@ -160,6 +160,18 @@ nav.navbar-inverse {
 
 
 /* ---Sidebar style starts here--- */
+
+#nav li {
+	background: #337ab7; /* background color of sidebar buttons */
+}
+#nav li a {
+	color: white; /* text color of sidebar buttons */
+}
+#nav li a:hover {
+	background: #23b2c6;
+}
+
+/* positioning */
 .affix-top {
   position: relative;
 }
@@ -170,23 +182,13 @@ nav.navbar-inverse {
 
 .affix, 
 .affix-bottom {
-    width: 213px;
+    width: 200px;
 }
 
 .affix-bottom {
   position: absolute;
 }
 
-@media (min-width: 1200px) {
-.affix, 
-.affix-bottom {
-    width: 235px;
-  }        
-}
-
-
-@media (min-width: 1200px) {
-}
 .nav .active {
   font-weight: bold;
 }
@@ -389,6 +391,11 @@ section {
 figure {
 	margin-bottom: 0px; /* remove margin to reduce white space on large screen sizes */
 }
+}
 
-
+@media (min-width: 1200px) {
+.affix, 
+.affix-bottom {
+    width: 225px;
+  }        
 }
